@@ -1,0 +1,96 @@
+# 数据集配置
+path: ./datasets  # 数据集根目录
+train: images/train
+val: images/val
+augment: true  # 启用增强
+mosaic: 1.0    # Mosaic增强比例
+mixup: 0.1     # MixUp增强比例
+
+nc: 40
+names:
+  - FastFoodBox
+  - SoiledPlastic
+  - Cigarette
+  - Toothpick
+  - Flowerpot
+  - BambooChopstics
+  - Meal
+  - Bone
+  - FruitPeel
+  - Pulp
+  - Tea
+  - Vegetable
+  - Eggshell
+  - FishBone
+  - Powerbank
+  - Bag
+  - CosmeticBottles
+  - Toys
+  - PlasticBowl
+  - PlasticHanger
+  - PaperBags
+  - PlugWire
+  - OldClothes
+  - Can
+  - Pillow
+  - PlushToys
+  - ShampooBottle
+  - GlassCup
+  - Shoes
+  - Anvil
+  - Cardboard
+  - SeasoningBottle
+  - Bottle
+  - MetalFoodCans
+  - Pot
+  - EdibleOilBarrel
+  - DrinkBottle
+  - DryBattery
+  - Ointment
+  - ExpiredDrugs
+
+category_mapping:
+  Recyclables:
+    - Powerbank
+    - Bag
+    - CosmeticBottles
+    - Toys
+    - PlasticBowl
+    - PlasticHanger
+    - PaperBags
+    - PlugWire
+    - OldClothes
+    - Can
+    - Pillow
+    - PlushToys
+    - ShampooBottle
+    - GlassCup
+    - Shoes
+    - Anvil
+    - Cardboard
+    - SeasoningBottle
+    - Bottle
+    - MetalFoodCans
+    - Pot
+    - EdibleOilBarrel
+    - DrinkBottle
+  HazardousWaste:
+    - DryBattery
+    - Ointment
+    - ExpiredDrugs
+  KitchenWaste:
+    - Meal
+    - Bone
+    - FruitPeel
+    - Pulp
+    - Tea
+    - Vegetable
+    - Eggshell
+    - FishBone
+  OtherGarbage:
+    - FastFoodBox
+    - SoiledPlastic
+    - Cigarette
+    - Toothpick
+    - Flowerpot
+    - BambooChopstics

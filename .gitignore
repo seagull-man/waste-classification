@@ -1,0 +1,47 @@
+# 排除 Python 编译文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 排除数据集文件夹（太大，不应该上传）
+garbage_datasets/
+garbage_4cls/
+
+# 排除模型权重文件
+*.pt
+*.pth
+*.onnx
+
+# 排除训练结果
+runs/
+
+# 排除缓存文件
+*.cache
+
+# 排除系统文件
+.DS_Store
+Thumbs.db
+*.log
+
+# 排除 IDE 配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 排除虚拟环境
+venv/
+.env/
+.env.local
+
+# 排除 autodl 配置
+.autodl/
+
+# 排除临时文件
+*.tmp
+*.temp
+
+# 排除 Jupyter 笔记本
+.ipynb_checkpoints/

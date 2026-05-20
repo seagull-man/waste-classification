@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "name_en": "FastFoodBox",
+    "name_cn": "快餐盒",
+    "category": "OtherGarbage"
+  },
+  {
+    "id": 1,
+    "name_en": "SoiledPlastic",
+    "name_cn": "污损塑料",
+    "category": "OtherGarbage"
+  },
+  {
+    "id": 2,
+    "name_en": "Cigarette",
+    "name_cn": "烟头",
+    "category": "OtherGarbage"
+  },
+  {
+    "id": 3,
+    "name_en": "Toothpick",
+    "name_cn": "牙签",
+    "category": "OtherGarbage"
+  },
+  {
+    "id": 4,
+    "name_en": "Flowerpot",
+    "name_cn": "花盆",
+    "category": "OtherGarbage"
+  },
+  {
+    "id": 5,
+    "name_en": "BambooChopstics",
+    "name_cn": "竹筷",
+    "category": "OtherGarbage"
+  },
+  {
+    "id": 6,
+    "name_en": "Meal",
+    "name_cn": "剩饭剩菜",
+    "category": "KitchenWaste"
+  },
+  {
+    "id": 7,
+    "name_en": "Bone",
+    "name_cn": "骨头",
+    "category": "KitchenWaste"
+  },
+  {
+    "id": 8,
+    "name_en": "FruitPeel",
+    "name_cn": "水果皮",
+    "category": "KitchenWaste"
+  },
+  {
+    "id": 9,
+    "name_en": "Pulp",
+    "name_cn": "纸浆",
+    "category": "KitchenWaste"
+  },
+  {
+    "id": 10,
+    "name_en": "Tea",
+    "name_cn": "茶叶",
+    "category": "KitchenWaste"
+  },
+  {
+    "id": 11,
+    "name_en": "Vegetable",
+    "name_cn": "蔬菜",
+    "category": "KitchenWaste"
+  },
+  {
+    "id": 12,
+    "name_en": "Eggshell",
+    "name_cn": "蛋壳",
+    "category": "KitchenWaste"
+  },
+  {
+    "id": 13,
+    "name_en": "FishBone",
+    "name_cn": "鱼骨",
+    "category": "KitchenWaste"
+  },
+  {
+    "id": 14,
+    "name_en": "Powerbank",
+    "name_cn": "充电宝",
+    "category": "Recyclables"
+  },
+  {
+    "id": 15,
+    "name_en": "Bag",
+    "name_cn": "包",
+    "category": "Recyclables"
+  },
+  {
+    "id": 16,
+    "name_en": "CosmeticBottles",
+    "name_cn": "化妆品瓶",
+    "category": "Recyclables"
+  },
+  {
+    "id": 17,
+    "name_en": "Toys",
+    "name_cn": "玩具",
+    "category": "Recyclables"
+  },
+  {
+    "id": 18,
+    "name_en": "PlasticBowl",
+    "name_cn": "塑料碗",
+    "category": "Recyclables"
+  },
+  {
+    "id": 19,
+    "name_en": "PlasticHanger",
+    "name_cn": "塑料衣架",
+    "category": "Recyclables"
+  },
+  {
+    "id": 20,
+    "name_en": "PaperBags",
+    "name_cn": "纸袋",
+    "category": "Recyclables"
+  },
+  {
+    "id": 21,
+    "name_en": "PlugWire",
+    "name_cn": "插头电线",
+    "category": "Recyclables"
+  },
+  {
+    "id": 22,
+    "name_en": "OldClothes",
+    "name_cn": "旧衣物",
+    "category": "Recyclables"
+  },
+  {
+    "id": 23,
+    "name_en": "Can",
+    "name_cn": "易拉罐",
+    "category": "Recyclables"
+  },
+  {
+    "id": 24,
+    "name_en": "Pillow",
+    "name_cn": "枕头",
+    "category": "Recyclables"
+  },
+  {
+    "id": 25,
+    "name_en": "PlushToys",
+    "name_cn": "毛绒玩具",
+    "category": "Recyclables"
+  },
+  {
+    "id": 26,
+    "name_en": "ShampooBottle",
+    "name_cn": "洗发水瓶",
+    "category": "Recyclables"
+  },
+  {
+    "id": 27,
+    "name_en": "GlassCup",
+    "name_cn": "玻璃杯",
+    "category": "Recyclables"
+  },
+  {
+    "id": 28,
+    "name_en": "Shoes",
+    "name_cn": "鞋子",
+    "category": "Recyclables"
+  },
+  {
+    "id": 29,
+    "name_en": "Anvil",
+    "name_cn": "铁砧",
+    "category": "Recyclables"
+  },
+  {
+    "id": 30,
+    "name_en": "Cardboard",
+    "name_cn": "纸板箱",
+    "category": "Recyclables"
+  },
+  {
+    "id": 31,
+    "name_en": "SeasoningBottle",
+    "name_cn": "调味品瓶",
+    "category": "Recyclables"
+  },
+  {
+    "id": 32,
+    "name_en": "Bottle",
+    "name_cn": "酒瓶",
+    "category": "Recyclables"
+  },
+  {
+    "id": 33,
+    "name_en": "MetalFoodCans",
+    "name_cn": "金属食品罐",
+    "category": "Recyclables"
+  },
+  {
+    "id": 34,
+    "name_en": "Pot",
+    "name_cn": "锅",
+    "category": "Recyclables"
+  },
+  {
+    "id": 35,
+    "name_en": "EdibleOilBarrel",
+    "name_cn": "食用油桶",
+    "category": "Recyclables"
+  },
+  {
+    "id": 36,
+    "name_en": "DrinkBottle",
+    "name_cn": "饮料瓶",
+    "category": "Recyclables"
+  },
+  {
+    "id": 37,
+    "name_en": "DryBattery",
+    "name_cn": "干电池",
+    "category": "HazardousWaste"
+  },
+  {
+    "id": 38,
+    "name_en": "Ointment",
+    "name_cn": "药膏",
+    "category": "HazardousWaste"
+  },
+  {
+    "id": 39,
+    "name_en": "ExpiredDrugs",
+    "name_cn": "过期药品",
+    "category": "HazardousWaste"
+  }
+]
