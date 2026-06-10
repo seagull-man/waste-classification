@@ -1,0 +1,5 @@
+﻿模型,Accuracy,Precision (Macro),Precision (Weighted),Recall (Macro),Recall (Weighted),F1-Score (Macro),F1-Score (Weighted),FPS,推理时间 (ms),参数量 (M),模型大小 (MB),hazardous_precision,kitchen_precision,other_precision,recyclable_precision,hazardous_recall,kitchen_recall,other_recall,recyclable_recall,hazardous_f1,kitchen_f1,other_f1,recyclable_f1
+YOLOv8n-cls (Original),0.9359,0.916,0.9352,0.8877,0.9359,0.901,0.9352,56.16,17.81,1.44,2.84,0.8947,0.9334,0.8869,0.9491,0.8095,0.9583,0.8209,0.9619,0.85,0.9457,0.8526,0.9554
+YOLOv8n-cls + SE,0.9327,0.9093,0.9317,0.8773,0.9327,0.8923,0.9318,52.47,19.06,1.45,2.86,0.8761,0.9392,0.8772,0.9448,0.7857,0.9533,0.8072,0.963,0.8285,0.9462,0.8407,0.9538
+YOLOv8n-cls + ECA,0.9309,0.9076,0.9299,0.8737,0.9309,0.8895,0.93,55.48,18.02,1.44,2.84,0.8673,0.9357,0.8852,0.9421,0.7778,0.9467,0.8072,0.963,0.8201,0.9412,0.8444,0.9524
+YOLOv8n-cls + CBAM,0.9366,0.9182,0.936,0.8898,0.9366,0.9031,0.936,39.96,25.02,1.49,2.93,0.9115,0.9332,0.8768,0.9513,0.8175,0.955,0.8237,0.963,0.8619,0.944,0.8494,0.9572

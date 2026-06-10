@@ -3,8 +3,8 @@ import os
 import shutil
 from pathlib import Path
 
-DATASET_ROOT = Path("garbage_datasets")
-OUTPUT_ROOT = Path("garbage_4cls")
+DATASET_ROOT = Path("/root/autodl-tmp/garbage_datasets")
+OUTPUT_ROOT = Path("../garbage_4cls")
 
 ORIGINAL_NAMES = [
     'FastFoodBox', 'SoiledPlastic', 'Cigarette', 'Toothpick', 'Flowerpot',
@@ -29,8 +29,8 @@ for name in ORIGINAL_NAMES:
         CATEGORY_MAPPING[name] = 'recyclable'
 
 def convert_split(split):
-    images_dir = DATASET_ROOT / "images" / split
-    labels_dir = DATASET_ROOT / "labels" / split
+    images_dir = DATASET_ROOT / "datasets" / "images" / split
+    labels_dir = DATASET_ROOT / "datasets" / "labels" / split
     output_dir = OUTPUT_ROOT / split
 
     for cls in ['recyclable', 'hazardous', 'kitchen', 'other']:
